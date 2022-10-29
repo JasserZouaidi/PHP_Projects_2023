@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <center>
+
+        <form action="add.php" method="post">
+            <header>
+                <span><i class="fa-solid fa-user"></i></span>NOUVEL ELEVE
+            </header>
+            <br><label for="nom">Nom :</label><input type="text" placeholder="Votre nom">
+
+            <br><label for="pnom">Prenom :</label><input type="text" placeholder="Votre prenom">
+
+            <br><label for="classe">Classe :</label><input type="text" placeholder="Votre classe">
+
+            <br><label for="Sexe">Sexe :</label>
+            <input type="radio" value="homme" name="sexe">Homme
+            <input type="radio" value="femme" name="sexe">Femme
+
+            <br><label for="option">Option :</label>
+            <input type="checkbox" value="dessin" name="dessin">Dessin
+            <input type="checkbox" value="musique" name="musique">Musique
+            <input type="checkbox" value="scientifique" name="scientifique">Scientifique
+
+            <br><label for="journee">Journee :</label>
+            <select>
+                <option value="landi">LUNDI</option>
+                <option value="mandi">MARDI</option>
+                <option value="mercredi">MERCREDI</option>
+                <option value="jeudi">JEUDI</option>
+                <option value="vendridi">VENDREDI</option>
+                <option value="samedi">SAMEDI</option>
+                <option value="dimanche">DEMANCHE</option>
+            </select>
+
+            <br>
+            <input type="submit" value="ENVOYER">
+            <input type="reset" value="ANNULER">
+        </form>
+    </center>
+</body>
+
+</html>
